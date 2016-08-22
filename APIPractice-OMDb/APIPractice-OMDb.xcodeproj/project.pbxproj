@@ -12,6 +12,8 @@
 		FF5C94741D6A93F1009EB219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5C94721D6A93F1009EB219 /* Main.storyboard */; };
 		FF5C94761D6A93F1009EB219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5C94751D6A93F1009EB219 /* Assets.xcassets */; };
 		FF5C94791D6A93F1009EB219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5C94771D6A93F1009EB219 /* LaunchScreen.storyboard */; };
+		FF5C94811D6A9BB9009EB219 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C94801D6A9BB9009EB219 /* Secrets.swift */; };
+		FF5C94831D6A9D80009EB219 /* OMDbAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C94821D6A9D80009EB219 /* OMDbAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FF5C94751D6A93F1009EB219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF5C94781D6A93F1009EB219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF5C947A1D6A93F1009EB219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5C94801D6A9BB9009EB219 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		FF5C94821D6A9D80009EB219 /* OMDbAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMDbAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 		FF5C946D1D6A93F1009EB219 /* APIPractice-OMDb */ = {
 			isa = PBXGroup;
 			children = (
+				FF5C94801D6A9BB9009EB219 /* Secrets.swift */,
 				FF5C946E1D6A93F1009EB219 /* AppDelegate.swift */,
+				FF5C94821D6A9D80009EB219 /* OMDbAPIClient.swift */,
 				FF5C94701D6A93F1009EB219 /* ViewController.swift */,
 				FF5C94721D6A93F1009EB219 /* Main.storyboard */,
 				FF5C94751D6A93F1009EB219 /* Assets.xcassets */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF5C94711D6A93F1009EB219 /* ViewController.swift in Sources */,
+				FF5C94831D6A9D80009EB219 /* OMDbAPIClient.swift in Sources */,
+				FF5C94811D6A9BB9009EB219 /* Secrets.swift in Sources */,
 				FF5C946F1D6A93F1009EB219 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
